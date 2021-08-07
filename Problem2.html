@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Problem2</title>
+    <script>
+      function show() {
+        var input = document.getElementById("number").value;
+        if(input%2!=0)
+              {
+              for(var i=1; i<=input*2;i=i+2)
+              
+                document.write(i + ',');
+            }else{
+                for(var j=1; j<=(input*2)-2;j=j+2)
+ 
+                document.write(j + ',');
+            }
+    }
+    </script>
+  </head>
+  <body>
+    <label for="number"></label>
+    <input type="text" id="number" placeholder="enter a number" /><br /><br />
+    <button type="button" id="display" onclick="show()">Display Output</button>
+  </body>
+</html>

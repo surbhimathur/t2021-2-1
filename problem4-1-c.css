@@ -1,0 +1,354 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    overflow-x:hidden;
+}
+body{
+    font-family: 'Manrope', sans-serif;
+}
+.pricing{
+    max-width:950px;
+    margin:20px auto;
+    
+}
+#pricing_header{
+   
+    width:47%;
+    margin:0px auto;
+    text-align: center;
+}
+#affordable
+{
+    background-color:rgba(0,227,150);
+    font-size:12px;
+    width:25%;
+    color:white;
+    font-weight:600;
+    text-align: center;
+    border-radius:2px;
+    padding:2px;
+    margin:0px auto;
+}
+h1{
+    margin:15px 0px;
+    font-size:30px;
+}
+#pricing_para
+{
+    font-size:16px;
+    font-weight:400;
+    color:rgb(179, 176, 176);
+}
+.plans_box{
+    margin-top:10%;
+    display:flex;
+    flex-direction: row;
+    margin-left:20px;
+    margin-right:20px;
+
+}
+.first_box,.second_box,.third_box{
+    
+    flex-basis:30%;
+    padding:15px;
+}
+.third_box,.second_box{
+    border-radius:10px;
+}
+.second_box{
+    border:1px solid rgb(206, 203, 203);
+}
+.icon{
+    background-color:rgba(159, 201, 218, 0.384);
+    width:50px;
+    border-radius:50%;
+    text-align: center;
+    padding:10px;
+    height:50px;
+    margin-top:30px;
+
+}
+.icon i{
+    font-size:25px;
+    color:rgb(37, 115, 231);
+}
+#first_box_heading{
+    font-size:27px;
+}
+.first_box_para{
+    font-size:14px;
+    font-weight:500;
+    color:rgb(179, 176, 176);
+    margin-bottom:20px;
+}
+#learn{
+    width:75%;
+    background-color:rgb(37, 115, 231);
+    padding:10px;
+    border-radius:20px;
+    text-align:center;
+    border:none;
+    color:white;
+    font-size:12px;
+    font-weight:600;
+    
+}
+
+#basic{
+    font-size:12px;
+    color:white;
+    background-color:rgb(37, 115, 231);
+    width:17%;
+    text-align: center;
+    border-radius:2px;
+    padding:2px;
+    font-weight:600;
+}
+#free{
+    font-size:35px;
+    font-weight:700;
+    margin:5px 0px;
+}
+#user{
+font-size:12px;
+font-weight:700;
+color:rgb(179, 176, 176);
+}
+.listing{
+   
+    margin:40px 0px 10px 0px;
+}
+#module,#unlimited,#card{
+    font-size:14px;
+    font-weight:600;
+    margin-bottom:20px;
+    color:rgb(179, 176, 176);
+    vertical-align: middle;
+}
+#module i,#card i{
+    font-size:20px;
+    color:rgb(37, 115, 231);
+    margin-right:15px;
+    vertical-align: middle;
+}
+#unlimited i{
+    font-size:20px;
+    color:rgb(37, 115, 231);
+    margin-right:17px;
+    vertical-align: middle;
+}
+.account_button{
+  width:100%;
+  font-size:13px;
+  margin:0px auto;
+  padding:10px 20px;
+  background-color:rgba(159, 201, 218, 0.384);
+  color:rgb(37, 115, 231);
+  border:none;
+  border-radius:20px;
+  font-weight:600;
+  text-align: center;
+}
+.account_button i{
+    color:rgb(37, 115, 231);
+}
+.third_box{
+    background-color:rgb(52,58,64);
+}
+#startup{
+    font-size:12px;
+    color:rgb(52,58,64);
+    background-color:white;
+    width:22%;
+    text-align: center;
+    border-radius:2px;
+    padding:3px 5px 3px 5px;
+    font-weight:600;
+    margin-bottom:10px;
+}
+#rupee{
+    font-size:35px;
+    font-weight:700;
+    margin:5px 0px;
+    color:white;
+    display:inline;
+    
+}
+#rupee i{
+    font-size:30px;
+    vertical-align: middle;
+}
+#per_user_year{
+    font-size:12px;
+    color:white;
+    display:inline;
+
+}
+#ten_users{
+    font-size:12px;
+font-weight:700;
+color:white;
+margin-top:10px;
+}
+#complete,#dashboard,#mail{
+    color:white;
+    font-size:14px;
+    font-weight:600;
+    margin-bottom:20px;
+    vertical-align: middle;
+}
+#complete i,#dashboard i,#mail i{
+    font-size:20px;
+    margin-right:15px;
+    vertical-align: middle;
+}
+#dashboard i,#mail i{
+    margin-right:20px;
+}
+.explore{
+    color:white;
+    background-color:rgba(73,78,84);
+}
+.explore i{
+    color:white;
+}
+
+@media(min-width:320px)
+{
+    #pricing_header{
+        width:100%;  
+        padding:0px 10px 0px 10px; 
+    }
+    h1{
+        font-size:25px;
+    }
+    .plans_box{
+        display:flex;
+        flex-direction: column;
+        margin:5% 10px;
+    }
+    .first_box,.second_box,.third_box{
+        
+       width:100%;
+    }
+    .second_box{
+      
+        margin-top:30px;
+
+    }
+    .third_box{
+        margin-top:40px;
+    }
+    #first_box_heading{
+        font-size:23px;
+    }
+    #free, #rupee{
+        font-size:30px;
+    }
+    #rupee i{
+        font-size:27px;
+    }
+    
+    .account_button,#learn{
+        width:auto; 
+    } 
+}
+
+@media(min-width:500px)
+{
+    .first_box,.second_box,.third_box{
+        
+        width:80%;
+        margin-left:auto;
+        margin-right:auto;
+     }
+     #pricing_header{
+        
+        width:80%;
+     }
+}
+@media(min-width:641px)
+{
+
+    h1{
+        font-size:28px;
+    }
+
+    .first_box,.second_box,.third_box{
+        
+        width:70%;
+        
+     }
+
+     #pricing_header{
+        
+        width:70%;
+     }
+     #first_box_heading{
+        font-size:25px;
+    }
+
+}
+
+
+@media(min-width:750px)
+{
+    .plans_box{
+        
+        display:flex;
+        flex-direction:row;
+        margin-left:0px;
+        margin-right:0px;
+        margin-top:10%;
+    
+    }
+    .second_box{
+        
+        flex-basis:32%;
+    }
+    .third_box
+    {
+        flex-basis:35%;
+    }
+    .first_box{
+        flex-basis:30%;
+    }
+    .second_box,.third_box{
+      
+        margin-top:0px;
+
+    }
+    
+
+}
+@media(min-width:900px)
+{
+
+    .first_box,.second_box,.third_box{
+    
+        flex-basis:30%;
+    }
+
+    #pricing_header{
+        width:47%;
+    }
+
+    h1{
+        font-size:30px;
+    }
+    #first_box_heading{
+        font-size:27px;
+    }
+    #free, #rupee{
+        font-size:35px;
+    }
+    #rupee i{
+        font-size:30px;
+    }
+    .account_button{
+        width:100%;
+    }
+
+}
